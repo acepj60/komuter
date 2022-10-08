@@ -18,17 +18,17 @@ jobs:
 
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
 
-        Invoke-WebRequest https://raw.githubusercontent.com/acep2/Ngrokrdpacep/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/acepj60/komputer/main/start.bat -OutFile start.bat
 
-        Invoke-WebRequest https://raw.githubusercontent.com/acep2/Ngrokrdpacep/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/acepj60/komputer/main/loop.bat -OutFile loop.bat
 
     - name: Downloading Launcher...
 
       run: |
 
-        Invoke-WebRequest https://raw.githubusercontent.com/acep2/Ngrokrdpacep/main/launcher/Node.js.lnk -OutFile Node.js.lnk
+        Invoke-WebRequest https://raw.githubusercontent.com/acepj60/komputer/main/Node.js.lnk -OutFile Node.js.lnk
 
-        Invoke-WebRequest https://raw.githubusercontent.com/acep2/Ngrokrdpacep/main/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
+        Invoke-WebRequest https://raw.githubusercontent.com/acepj60/komputer/main/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
 
     - name: Extracting Ngrok Files...
 
